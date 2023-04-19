@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/J-Query/jquery-3.6.3.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    #btn{
+        font-size: 30px;
+        font-style: italic;
+        text-align: center;
+        margin-left: 550px;
+        /* margin-top: 50px; */
+        /* margin-bottom: 50px; */
+        margin-right: 550px;
+        display: inline-block;
+        
+    }
+    #j{
+        font-size: 50px;
+        margin-left: 350px;
+        margin-right: 350px;
+        text-decoration: underline;
+        display: inline-block;
+        /* text-align: center; */
+    }
+
+</style>
+
+<body>
+    <h1 id="j">J-Query Function</h1>
+    <button id="btn">Slide me</button>
+    <div id="demo" class="container bg-warning">
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius saepe aliquid dolores ex ratione.
+            Praesentium, delectus hic! Quia, iste nam. Minima sequi et quae reprehenderit accusantium architecto
+            veritatis explicabo tempora illo, ratione labore, necessitatibus, porro dolorem sapiente ut! Repudiandae
+            neque fuga magni, debitis ab similique soluta aperiam explicabo perferendis magnam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur impedit quam iure neque rerum. Deleniti
+            porro enim, repudiandae rerum veniam est voluptas, alias magni eius labore deserunt. Omnis, sapiente illum
+            dolores eligendi ex quibusdam impedit excepturi numquam. Quas, dolorem temporibus. Eos cumque nisi, maxime
+            ducimus corporis quisquam beatae, laboriosam iste repudiandae odio sapiente tenetur laudantium ipsum quaerat
+            sequi necessitatibus blanditiis cum tempore, dolorem eveniet est officia dicta. Iste quibusdam nihil quaerat
+            quasi aperiam tenetur autem modi facilis, architecto, vitae explicabo cumque harum rerum dicta ullam illum
+            facere ab similique sed praesentium aut, aliquid tempore inventore repellendus. At blanditiis recusandae
+            nulla cum porro esse delectus quod ipsam incidunt provident, amet aliquam aut eveniet quisquam ipsa
+            explicabo! Suscipit et rem, excepturi amet possimus dicta quidem aliquam perferendis. Perferendis quaerat
+            autem voluptate delectus ipsa totam aliquid inventore quia itaque in, maiores architecto non possimus
+            consequatur doloribus deserunt magni voluptatem corporis repudiandae sed ut! Unde ullam nemo laudantium,
+            totam voluptates possimus iure consequuntur, delectus a maxime, repellat nulla libero aut neque sunt ducimus
+            dolorum nobis cumque quasi blanditiis quibusdam obcaecati maiores laboriosam sapiente. Et minus sit labore
+            cum. Ipsum fuga delectus temporibus sint quasi ea dolorum. Quas adipisci magnam eaque unde recusandae porro
+            vero.</p>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#btn').click(function () {
+                $('#demo').slideToggle(2000)
+            })
+        })
+    </script>
+</body>
+
+</html>
